@@ -1,4 +1,5 @@
- #include <stdio.h>
+// Rewrite the temperature conversion program of Section 1.2 to use a function for conversion.  
+#include <stdio.h>
    /* print Fahrenheit-Celsius table       for fahr = 0, 20, ..., 300 */  
 int convert(int);
  void  main()
