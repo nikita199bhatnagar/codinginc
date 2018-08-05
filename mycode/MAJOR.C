@@ -5,8 +5,8 @@ void main()
 	//codet is no of tast cases
 
 
-	int g=0,a[20],count[10],b,j,i,t,N,c1=0,c2=0;
-	clrscr();
+	int g=0,a[100],count[100],b,j,i,t,N,c1=0,c2=0;
+
 	scanf("%d",&t);
       while(t>0)
       {
@@ -31,10 +31,10 @@ void main()
       for(i=0;i<=g;i++)
       {
 	 if(count[i]>(N/2))
-	   printf("\nmajorty is =%d",count[i]);
+	   printf("%d\n",count[i]);
 	 else
-	   printf("\nNO Majority Element");
+	   printf("NO Majority Element\n");
 
 	}
-	getch();
+
 }
